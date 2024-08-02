@@ -22,16 +22,19 @@ The Inventory Management System (IMS) is a Java-based application designed to he
 
 ### Installation
 
-1. **Clone the Repository:**
+**Clone the Repository:**
 
    ```bash
    git clone https://github.com/RobertasKirkickas/inventory-management-system-java.git
+```
+
 Navigate to the Project Directory:
 
-bash
-Copy code
+```bash
 cd inventory-management-system-java
-Configure the Database:
+```
+
+#### Configure the Database:
 
 Create a MySQL database named inventory_db.
 Update the database connection settings in the FileManager class.
@@ -39,58 +42,62 @@ Build and Run the Project:
 
 Open the project in your preferred Java IDE.
 Build and run the Store class to start the application.
-Usage
-Main Menu:
 
+### Usage
+#### Main Menu:
 
 The main menu provides options to view, add, edit, and delete inventory items.
 
-Viewing Inventory:
 
+#### Viewing Inventory:
 
 This feature allows users to see a list of all current inventory items.
 
-Adding New Items:
 
+#### Adding New Items:
 
 Users can add new items to the inventory by entering item details such as description, unit price, and quantity.
 
-Editing Existing Items:
 
+#### Editing Existing Items:
 
 Modify the details of existing items, including updating the quantity and price.
 
-Deleting Items:
 
+#### Deleting Items:
 
 Remove items from the inventory by entering the item's ID.
 
-Generating Reports:
 
+#### Generating Reports:
 
 Generate reports of all transactions, including item additions, updates, and deletions.
 
-Design and Architecture
+
+### Design and Architecture
+
 The application is structured into four main classes:
 
-Store: Manages program logic and user interactions.
-FileManager: Handles database operations for items and transactions.
-InputValidator: Ensures valid user inputs.
-DateTimeManager: Provides current date and time functionalities.
+**Store**: Manages program logic and user interactions.
+**FileManager**: Handles database operations for items and transactions.
+**InputValidator**: Ensures valid user inputs.
+**DateTimeManager**: Provides current date and time functionalities.
 
 
-Future Enhancements
+### Future Enhancements
+
 Implement user authentication for enhanced security.
 Introduce a graphical user interface (GUI) for improved usability.
 Develop advanced reporting features, such as monthly summaries and sales analysis.
 Implement automatic transaction report deletion after a set period to save storage space.
-Contributing
+
+### Contributing
 Contributions are welcome! If you'd like to contribute to the project, please fork the repository and create a pull request with your changes.
 
-License
+### License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Contact
+### Contact
 For questions or suggestions, please contact [RobertasKirkickas@gmail.com].
 
 ### Program Screenshots:
